@@ -1,0 +1,20 @@
+{
+  "name": "project-nodejs",
+  "version": "1.0.0",
+  "description": "Trying nodejs for the first time",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": "https://github.com/Sumapraja/project-nodejs",
+  "author": "Sumapraja <irfansumapraja@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "listr": "^0.14.3",
+    "log-symbols": "^3.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
