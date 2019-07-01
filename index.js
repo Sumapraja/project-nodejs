@@ -66,10 +66,6 @@ const tasks = new Listr([
 		title: 'Run tests',
 		task: () => execa('npm', ['test'])
 	},
-	{
-		title: 'Publish package',
-		task: () => execa('npm', ['publish'])
-	}
 ]);
 
 tasks.run().catch(err => {
